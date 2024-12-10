@@ -17,22 +17,22 @@ This is a culmination of my learning journey with CSS, and I'm excited to share 
 ## Folder Overview
 Here’s a brief description of the topics covered:
 
-1. **01 Adding CSS**: How to link CSS to an HTML file (inline, internal, and external methods).
-2. **02 CSS Selectors**: Different types of selectors like element, class, ID, and attribute selectors.
-3. **03 CSS Colors**: Working with colors using HEX, RGB, HSL, and color names.
-4. **04 Font Properties**: Styling text using font family, size, weight, style, and more.
-5. **05 CSS Box Model**: Understanding the box model (content, padding, border, margin).
-6. **06 CSS + Cascade**: Exploring how CSS rules are applied and prioritized.
-7. **07 Combining Selectors**: Using multiple selectors together for efficient styling.
-8. **08 CSS Positioning**: Mastering positioning techniques like relative, absolute, fixed, and sticky.
-9. **09 CSS Display**: Understanding block, inline, inline-block, and display properties.
-10. **10 CSS Float**: Using floats for layout and clearing issues.
-11. **11 Responsiveness**: Techniques to make websites responsive.
-12. **12 Media Query**: Using media queries to adapt styles based on screen sizes.
-13. **13 Display Flex**: Mastering Flexbox for creating flexible layouts.
-14. **14 Display Grid**: Using CSS Grid for complex layouts.
-15. **15 Grid Sizing**: Working with grid template rows, columns, and sizing.
-16. **16 Grid Placement**: Positioning items within the grid.
+1. **Adding CSS**: How to link CSS to an HTML file (inline, internal, and external methods).
+2. **CSS Selectors**: Different types of selectors like element, class, ID, and attribute selectors.
+3. **CSS Colors**: Working with colors using HEX, RGB, HSL, and color names.
+4. **Font Properties**: Styling text using font family, size, weight, style, and more.
+5. **CSS Box Model**: Understanding the box model (content, padding, border, margin).
+6. **CSS + Cascade**: Exploring how CSS rules are applied and prioritized.
+7. **Combining Selectors**: Using multiple selectors together for efficient styling.
+8. **CSS Positioning**: Mastering positioning techniques like relative, absolute, fixed, and sticky.
+9. **CSS Display**: Understanding block, inline, inline-block, and display properties.
+10. **CSS Float**: Using floats for layout and clearing issues.
+11. **Responsiveness**: Techniques to make websites responsive.
+12. **Media Query**: Using media queries to adapt styles based on screen sizes.
+13. **Display Flex**: Mastering Flexbox for creating flexible layouts.
+14. **Display Grid**: Using CSS Grid for complex layouts.
+15. **Grid Sizing**: Working with grid template rows, columns, and sizing.
+16. **Grid Placement**: Positioning items within the grid.
     
 ---
 
