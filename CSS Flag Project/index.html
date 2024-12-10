@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Flag</title>
+    <style>
+        /* Basic styles for the body */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align to top */
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Container for the flag */
+        .flag-container {
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            height: 360px;
+            border: 1px solid #000;
+        }
+
+        /* Styles for the saffron stripe */
+        .saffron {
+            background-color: #FF9933;
+            height: 33.33%;
+        }
+
+        /* Styles for the white stripe with the Ashoka Chakra */
+        .white {
+            background-color: white;
+            height: 33.33%;
+            position: relative;
+        }
+
+        /* Styles for the green stripe */
+        .green {
+            background-color: #138808;
+            height: 33.33%;
+        }
+
+        /* Styles for the Ashoka Chakra */
+        .chakra {
+            width: 80px; /* Increased size for better visibility */
+            height: 80px; /* Increased size for better visibility */
+            border: 4px solid #000080;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+        }
+
+        /* Additional styling for the outer and inner circles of the Chakra */
+        .chakra::before, .chakra::after {
+            content: '';
+            position: absolute;
+            border: 1px solid #000080;
+            border-radius: 50%;
+        }
+        .chakra::before {
+            width: 72px; /* Adjusted to fit the larger chakra */
+            height: 72px;
+            top: 2px;
+            left: 2px;
+        }
+        .chakra::after {
+            width: 4px;
+            height: 4px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Styles for the spokes of the Ashoka Chakra */
+        .spoke {
+            position: absolute;
+            width: 2px;
+            height: 35px; /* Adjusted for better visibility */
+            background-color: #000080;
+            top: 50%;
+            left: 50%;
+            transform-origin: bottom center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Indian Flag</h2>
+    <!-- Flag container with three stripes and Ashoka Chakra in the white stripe -->
+    <div class="flag-container">
+        <div class="saffron"></div>
+        <div class="white">
+            <!-- Ashoka Chakra with 24 spokes -->
+            <div class="chakra">
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(0deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(15deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(30deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(45deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(60deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(75deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(90deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(105deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(120deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(135deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(150deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(165deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(180deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(195deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(210deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(225deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(240deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(255deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(270deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(285deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(300deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(315deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(330deg);"></div>
+                <div class="spoke" style="transform: translate(-50%, -50%) rotate(345deg);"></div>
+            </div>
+        </div>
+        <div class="green"></div>
+    </div>
+</body>
+</html>
